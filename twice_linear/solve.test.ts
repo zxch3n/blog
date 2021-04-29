@@ -4,8 +4,9 @@ import { answerFirst100 } from "./const.ts";
 import { assertEquals } from "https://deno.land/std@0.95.0/testing/asserts.ts";
 
 const answers: [number, number][] = [
-  [100000, 2911582],
-  [1000, 8488],
+  [1000000, 54381286],
+  // [100000, 2911582],
+  // [1000, 8488]
 ];
 
 Deno.test({
