@@ -7,7 +7,7 @@ This fold contains 3 typescript solutions:
 
 1. By LinkedList 
 2. By Generator
-3. By LazyArray
+3. By LazyArray. `LazyArray` is implemented in [here](https://github.com/zxch3n/lab/tree/master/lazy-array). 
 
 # Question
 
