@@ -1,4 +1,13 @@
+
+# Twice Linear
+
 This is a algorithm question in [codewar](https://www.codewars.com/kata/5672682212c8ecf83e000050).
+
+This fold contains 3 typescript solutions:
+
+1. By LinkedList 
+2. By Generator
+3. By LazyArray
 
 # Question
 
@@ -28,6 +37,8 @@ dbl_linear(10) should return 22
 
 Focus attention on efficiency
 
+# Translation
+
 
 序列 `u` 的定义如下
 
@@ -43,5 +54,5 @@ u = [1, 3, 4, 7, 9, 10, 13, 15, 19, 21, 22, 27, ...]
 
 通过 1 得到 3 和 4， 通过 3 得到 7 和 10， 通过 4 得到 9 和 13， 通过 7 得到 15 和 22 以此类推……
 
-任务，给定数字 `i` 返回 `u(i)`
+任务: 给定数字 `i` 返回 `u(i)`
 

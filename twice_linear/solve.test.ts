@@ -1,5 +1,6 @@
 // import { solve } from "./solveByGenerator.ts";
-import { solve } from "./solve.ts";
+import { solve } from "./solveByLazyArray.ts";
+// import { solve } from "./solve.ts";
 import { answerFirst100 } from "./const.ts";
 import { assertEquals } from "https://deno.land/std@0.95.0/testing/asserts.ts";
 
